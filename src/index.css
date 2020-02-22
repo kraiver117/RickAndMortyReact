@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color: #191f26;
+}
+
+
+.avatar__container{
+  width: 250px;
+  box-sizing: border-box;
+  display: inline-block;
+  
+}
+
+.avatar{
+  width: 100%;
+}
+
+.avatar__name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: whitesmoke;
+  border: 1px solid orange ;
+  margin: 10px;
+}
+span{
+  color: orange;
+}
+
+.indeximg{
+  width: 40%;
+  justify-self: center;
+}
+
+.linkApi{
+  font-size: 50px;
+}
